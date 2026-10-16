@@ -30,3 +30,9 @@ C документацией и тестами помогал агент Codex, 
 npm ci
 npm run dev
 ```
+
+## Проверки
+
+Быстрые тесты — `npm test`, браузерные сценарии — `npm run test:e2e`, замеры производительности — `npm run test:performance`.
+
+Подготовка окружения и описание проверок — в [tests/README.md](tests/README.md).

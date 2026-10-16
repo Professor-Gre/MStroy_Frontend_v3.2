@@ -10,7 +10,7 @@
       :grid-options="gridOptions"
       :row-data="rowData"
       :loading="loading"
-      @model-updated="refreshPositions"
+      @model-updated="refreshDerivedCells"
     />
   </section>
 </template>
@@ -49,8 +49,8 @@
     }))
   })
 
-  const refreshPositions = ({ api }: ModelUpdatedEvent<TreeGridRow>): void => {
-    api.refreshCells({ columns: ['position'], force: true })
+  const refreshDerivedCells = ({ api }: ModelUpdatedEvent<TreeGridRow>): void => {
+    api.refreshCells({ force: true })
   }
 </script>
 
