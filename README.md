@@ -12,6 +12,6 @@
 
 ## Технологии
 
-- Vue 3 и Composition API
+- Vue 3
 - TypeScript
 - AgGrid Vue и AgGrid Enterprise
