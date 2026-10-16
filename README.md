@@ -15,3 +15,12 @@
 - Vue 3
 - TypeScript
 - AgGrid Vue и AgGrid Enterprise
+
+## Запуск
+
+Требуется Node.js 22.12+ или 24+ и npm.
+
+```sh
+npm ci
+npm run dev
+```
