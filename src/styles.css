@@ -1,0 +1,22 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #454545;
+  background: #ffffff;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+::selection {
+  color: #233b59;
+  background: #dbe7f5;
+}

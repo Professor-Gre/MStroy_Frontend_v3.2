@@ -2,6 +2,9 @@
   "extends": "@vue/tsconfig/tsconfig.dom.json",
   "include": ["src/**/*.ts", "src/**/*.vue", "vite.config.ts"],
   "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "types": ["vite/client"],
     "strict": true,
     "noUnusedLocals": true,
